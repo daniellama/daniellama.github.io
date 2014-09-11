@@ -1,5 +1,5 @@
 body {
-	max-width: 900px; 
+	width: 900px; 
 	margin: auto; 
 	overflow: scroll;
 	font-family: Helvetica, sans-serif;  
@@ -15,17 +15,12 @@ body {
 	
 }
 
-text { 
-	font-family: Helvetica, sans-serif;  
-	font-size: 13px; 
-	color: #5b5b5b;
-
-
-}
 
 
 p {
-	padding-left: 30px;
+	font-family: Helvetica, sans-serif;  
+	font-size: 13px; 
+	color: #5b5b5b;
 }
 
 
