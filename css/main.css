@@ -1,14 +1,22 @@
+@import url('http://fonts.googleapis.com/css?family=raleway');
+
+#container {width: 700px; margin: auto; overflow: visible;}
+
+#column1, #column2 {margin-top: 10px;}
+
+
+
+
 body {
-	width: 700px; 
-	margin: auto; 
+	max-width: 700px; 
+	margin:0px auto; 
 	overflow: scroll;
-	font-family: Helvetica, sans-serif;  
+	font-family: 'raleway', Helvetica, sans-serif;  
 	font-size: 15px; 
 	background-color: #fffbf2;
 	color: #5b5b5b;
 	font-variant: small-caps;
 	margin-top: 30px; 
-	margin-left: 130px;
 	text-align: left;
 	letter-spacing: 1.75px;
 	line-height: 13px;
@@ -18,8 +26,8 @@ body {
 
 
 p {
-	font-family: Helvetica, sans-serif;  
-	font-size: 14px; 
+	font-family: 'raleway', Helvetica, sans-serif;  
+	font-size: 15px; 
 	color: #5b5b5b;
 	max-width: 700px;
 	line-height: 14px;
@@ -37,7 +45,7 @@ nav {
 h1 {
 	font-weight: 700;
 	margin-left: -20px;
-	font-family:Helvetica, sans-serif;  
+	font-family:'raleway', Helvetica, sans-serif;  
 	font-size: 16px; 
 	color: #5b5b5b;
 	line-height: 16px;
@@ -46,7 +54,7 @@ h1 {
 h2 {
 	font-weight: 700;
 	margin-left: -20px;
-	font-family:Helvetica, sans-serif;  
+	font-family:'raleway', Helvetica, sans-serif;  
 	font-size: 16px; 
 	color: #5b5b5b;
 	line-height: 16px;
@@ -57,7 +65,7 @@ a {
 	color: #9a9a9a;
 	text-decoration: none;
 	font-variant: small-caps;
-	font-family: Helvetica, sans-serif;
+	font-family: 'raleway', Helvetica, sans-serif;
 	font-size: 10pt;
 	font-weight: light;
 	padding-right: 30px;
@@ -66,11 +74,39 @@ a {
 }
 
 
-a:hover, a:active {
+a:hover {
+	color: #9a9a9a;
+	/* opacity: 1;
+	transform: translateX(0px);
+	display: inline-block;
+	transition: transform 0.3s, opacity 0.2s;
+	transition-property: transform, opacity;
+	transition-duration: 0.3s, 0.2s;
+	transition-timing-function: initial, initial;
+	transition-delay: initial, initial;
+	margin-right: 10px;
+	content: '[';
+	
+	opacity: 1;
+	transform: translateX(0px);
+	margin-left: 10px;
+	content: ']';
+	display: inline-block;
+	transition: transform 0.3s, opacity 0.2s;
+	transition-property: transform, opacity;
+	transition-duration: 0.3s, 0.2s;
+	transition-timing-function: initial, initial;
+	transition-delay: initial, initial; */
+}
+
+a:active {
 color: #5b5b5b;
 }
+
+
 a.on {
 	color: #5b5b5b;
 	font-weight: bold;
+	font-size: 13px; 
 	
 }
