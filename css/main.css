@@ -31,7 +31,8 @@ nav {
 }
 
 body nav {
-	background:#fff;
+	background:#fffbf2;
+	width:900px;
 	margin-top:10px;
 	position:fixed;
 	text-align:center;
