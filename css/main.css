@@ -105,7 +105,7 @@ a.on {
 	
 }
 
-[href*="home"] {
+[href*="index.html"] {
 	display: inline-block;
 	width: 16px;
 	height: 16px;
@@ -113,14 +113,14 @@ a.on {
 	position: relative;
 }
 
-[href*="home"]:before {
+[href*="index.html"]:before {
 	content: '';
 	display: block;
 	width: 0;
 	height: 150%;
 }
 
-[href*="home"]:after {
+[href*="index.html"]:after {
 	content: '\f118';
 	display: block;
 	position: absolute;
