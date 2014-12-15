@@ -23,7 +23,8 @@ body {
 }
 
 nav {
-	background:fixed;
+	position:fixed;
+	top:0;
 }
 
 
