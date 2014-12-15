@@ -24,17 +24,17 @@ body {
 
 nav {
 	position:absolute;
-	background-color: #fff;
-	padding-bottom:20px;
+	padding-top:10px;
+	padding-bottom:10px;
 	top:0;
 	height:30px;
-	text-align:center;
-	opacity: .8;    
-	z-index: 999;
 }
 
 body nav {
 	background:#fff;
+	text-align:center;
+	opacity: .8;    
+	z-index: 999;
 }
 
 nav a {
