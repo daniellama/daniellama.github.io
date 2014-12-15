@@ -23,13 +23,12 @@ body {
 }
 
 nav {
-	position:fixed;
+	position:absolute;
 	background-color: #fff;
 	padding-bottom:20px;
 	top:0;
 	height:30px;
 	text-align:center;
-	width:950px;
 	opacity: .8;    
 	z-index: 999;
 }
