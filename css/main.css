@@ -16,7 +16,7 @@ body {
 	background-color: #fffbf2;
 	color: #5b5b5b;
 	font-variant: small-caps;
-	margin-top: 30px; 
+	margin-top: 50px; 
 	text-align: left;
 	letter-spacing: 1.75px;
 	line-height: 13px;
@@ -24,7 +24,7 @@ body {
 
 nav {
 	position:fixed;
-	margin:auto;
+	/*margin:auto;*/
 	background-color: #fffbf2;
 	padding-bottom:20px;
 	top:0;
@@ -35,6 +35,9 @@ nav {
 	z-index: 999;
 }
 
+nav a {
+	margin:auto;
+}
 
 p {
 	font-family: 'raleway', Helvetica, sans-serif;  
@@ -81,27 +84,6 @@ a {
 
 a:hover {
 	color: #9a9a9a;
-	/* opacity: 1;
-	transform: translateX(0px);
-	display: inline-block;
-	transition: transform 0.3s, opacity 0.2s;
-	transition-property: transform, opacity;
-	transition-duration: 0.3s, 0.2s;
-	transition-timing-function: initial, initial;
-	transition-delay: initial, initial;
-	margin-right: 10px;
-	content: '[';
-	
-	opacity: 1;
-	transform: translateX(0px);
-	margin-left: 10px;
-	content: ']';
-	display: inline-block;
-	transition: transform 0.3s, opacity 0.2s;
-	transition-property: transform, opacity;
-	transition-duration: 0.3s, 0.2s;
-	transition-timing-function: initial, initial;
-	transition-delay: initial, initial; */
 }
 
 a:active {
