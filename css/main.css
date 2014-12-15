@@ -32,6 +32,7 @@ nav {
 
 body nav {
 	background:#fff;
+	position:fixed;
 	text-align:center;
 	opacity: .8;    
 	z-index: 999;
