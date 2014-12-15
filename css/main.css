@@ -24,13 +24,12 @@ body {
 
 nav {
 	position:fixed;
-	/*margin:auto;*/
-	background-color: #fffbf2;
+	background: #fffbf2;
 	padding-bottom:20px;
 	top:0;
 	height:30px;
 	text-align:center;
-	width:100%;
+	width:950px;
 	opacity: .8;    
 	z-index: 999;
 }
