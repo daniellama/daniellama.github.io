@@ -33,6 +33,10 @@ nav {
 	z-index: 999;
 }
 
+body nav {
+	background:#fff;
+}
+
 nav a {
 	margin:auto;
 }
