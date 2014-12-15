@@ -23,16 +23,16 @@ body {
 }
 
 nav {
-	position:fixed;
-	padding-top:10px;
+	/*position:fixed;*/
 	padding-bottom:10px;
 	top:0;
-	height:30px;
+	height:20px;
 	margin:auto;
 }
 
 body nav {
 	background:#fff;
+	margin-top:10px;
 	position:fixed;
 	text-align:center;
 	opacity: .8;    
