@@ -28,6 +28,7 @@ nav {
 	padding-bottom:10px;
 	top:0;
 	height:30px;
+	margin:auto;
 }
 
 body nav {
@@ -36,6 +37,7 @@ body nav {
 	text-align:center;
 	opacity: .8;    
 	z-index: 999;
+	margin:auto;
 }
 
 nav a {
