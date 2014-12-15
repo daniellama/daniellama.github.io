@@ -25,6 +25,8 @@ body {
 nav {
 	position:fixed;
 	margin:auto;
+	background-color: #fffbf2;
+	padding-bottom:20px;
 	top:0;
 	height:30px;
 	text-align:center;
