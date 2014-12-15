@@ -26,6 +26,7 @@ nav {
 	position:fixed;
 	top:0;
 	height:30px;
+	text-align:center;
 }
 
 
@@ -38,13 +39,7 @@ p {
 }
 
 
-nav {
 
-	text-align: right;
-	padding-bottom: 20px;
-	
-	
-}
 
 h1 {
 	font-weight: 700;
