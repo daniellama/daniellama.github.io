@@ -20,9 +20,11 @@ body {
 	text-align: left;
 	letter-spacing: 1.75px;
 	line-height: 13px;
-	
 }
 
+nav {
+	background:fixed;
+}
 
 
 p {
