@@ -24,9 +24,13 @@ body {
 
 nav {
 	position:fixed;
+	margin:auto;
 	top:0;
 	height:30px;
 	text-align:center;
+	width:100%;
+	opacity: .8;    
+	z-index: 999;
 }
 
 
