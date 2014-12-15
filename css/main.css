@@ -28,11 +28,11 @@ nav {
 	top:0;
 	height:20px;
 	margin:auto;
+	width:900px;
 }
 
 body nav {
 	background:#fffbf2;
-	width:900px;
 	margin-top:10px;
 	position:fixed;
 	text-align:center;
