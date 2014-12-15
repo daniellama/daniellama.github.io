@@ -2,11 +2,7 @@
 @import "http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
 
 #container {width: 700px; margin: auto; overflow: visible;}
-
 #column1, #column2 {margin-top: 10px;}
-
-
-
 
 body {
 	max-width: 700px; 
