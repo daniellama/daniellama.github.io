@@ -23,23 +23,25 @@ nav {
 	/*position:fixed;*/
 	padding-bottom:10px;
 	top:0;
-	height:20px;
+	height:30px;
 	margin:auto;
 	width:900px;
 }
 
 body nav {
 	background:#fffbf2;
-	margin-top:10px;
+	margin-top:20px;
+	padding-top: 20px;
 	position:fixed;
 	text-align:center;
-	opacity: .8;    
+/* 	opacity: .8;     */
 	z-index: 999;
 	margin:auto;
 }
 
 nav a {
 	margin:auto;
+/* 	line-height: 14px; */
 }
 
 p {
@@ -50,6 +52,10 @@ p {
 	line-height: 14px;
 }
 
+img {
+	padding-bottom: 5px;
+	margin-top: 0;
+}
 
 
 
@@ -60,7 +66,19 @@ h1 {
 	font-size: 16px; 
 	color: #5b5b5b;
 	line-height: 16px;
+
 }
+
+h1 a {
+	font-weight: 700;
+	margin-left: -20px;
+	font-family:'raleway', Helvetica, sans-serif;  
+	font-size: 16px; 
+	color: #1a1a1a;
+	line-height: 16px;
+
+}
+
 
 h2 {
 	font-weight: 700;
@@ -103,10 +121,10 @@ a.on {
 
 [href*="index.html"] {
 	display: inline-block;
-	width: 16px;
-	height: 16px;
+	width: 20px;
+	height: 20px;
 	overflow: hidden;
-	position: relative;
+/* 	position: relative; */
 }
 
 [href*="index.html"]:before {
@@ -121,11 +139,62 @@ a.on {
 	display: block;
 	position: absolute;
 	top: 0;
-	left: 0;
-	width: 16px;
-	height: 16px;
-	line-height: 16px;
+	left: -150px;
+	width: 20px;
+	height:20px;
+	line-height: 20px;
 	text-align: center;
-	color: black;
+	color: #5b5b5b;
 	font-family: 'FontAwesome';
+	padding-top: 26px;
+}
+
+
+.gallery.segment {
+	padding-bottom: 20px;
+}
+
+ul .slides {
+	padding-top: 0;
+	margin-top: 0;
+
+}
+
+/* inside gallery */
+aside.gallery.segment {
+	float: left;
+	max-width: 700px;
+	height: 390px;
+	overflow-x: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
+    padding-right: 0;
+    padding-top: 0;
+    margin-top: 0;
+    
+}
+
+.gallery.segment img{
+	margin: 0;
+	border: none;
+	width: 700px;
+	display: inline-block;
+    vertical-align: middle;	
+    float: left;
+}
+
+.segment.gallery {
+	overflow-y: hidden;
+	overflow-x: scroll;
+
+}
+
+.segment.gallery .slides {
+	overflow: visible;
+	padding: 0;
+}
+
+
+.segment.gallery .slide {
+	display: list-item;
 }
