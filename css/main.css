@@ -10,22 +10,23 @@ body {
 	overflow: scroll;
 	font-family: 'raleway', Helvetica, sans-serif;  
 	font-size: 15px; 
+	font-variant: small-caps;
 	background-color: #fffbf2;
 	color: #5b5b5b;
-	font-variant: small-caps;
 	margin-top: 70px; 
 	text-align: left;
-	letter-spacing: 1.75px;
+	letter-spacing: 1.5px;
 	line-height: 13px;
 }
 
 nav {
-	/*position:fixed;*/
+
 	padding-bottom:10px;
 	top:0;
+	left: 0;
 	height:30px;
 	margin:auto;
-	width:900px;
+	width:100%;
 }
 
 body nav {
@@ -44,12 +45,19 @@ nav a {
 /* 	line-height: 14px; */
 }
 
+.nav.menus {
+	
+}
+
 p {
 	font-family: 'raleway', Helvetica, sans-serif;  
-	font-size: 15px; 
+	font-size: 11px; 
 	color: #5b5b5b;
 	max-width: 700px;
 	line-height: 14px;
+	font-variant: normal;
+	letter-spacing: 0;
+	
 }
 
 img {
@@ -124,6 +132,7 @@ a.on {
 	width: 20px;
 	height: 20px;
 	overflow: hidden;
+	z-index: 999;
 /* 	position: relative; */
 }
 
@@ -132,6 +141,7 @@ a.on {
 	display: block;
 	width: 0;
 	height: 150%;
+	z-index: 999;
 }
 
 [href*="index.html"]:after {
@@ -139,7 +149,7 @@ a.on {
 	display: block;
 	position: absolute;
 	top: 0;
-	left: -150px;
+	left: 0;
 	width: 20px;
 	height:20px;
 	line-height: 20px;
@@ -147,6 +157,8 @@ a.on {
 	color: #5b5b5b;
 	font-family: 'FontAwesome';
 	padding-top: 26px;
+	z-index: 999;
+	padding-left: 10%;
 }
 
 
@@ -198,3 +210,15 @@ aside.gallery.segment {
 .segment.gallery .slide {
 	display: list-item;
 }
+
+.home {
+	position: absolute;
+	font-size: 90px;
+	font-weight: 100;
+	text-transform: lowercase;
+	margin: auto;
+	top:150px;
+	left:550px; 
+}
+
+
